@@ -73,7 +73,7 @@ If you add it, put the dashboard behind an identity proxy rather than a password
 
 Three images pinned to `tag@sha256:<digest>` as interpolation defaults in the compose `x-images` block:
 
-- [`louislam/uptime-kuma`](https://hub.docker.com/r/louislam/uptime-kuma): the application, latest stable (2.5.3)
+- [`louislam/uptime-kuma`](https://hub.docker.com/r/louislam/uptime-kuma): the application, latest stable (2.5.4)
 - [`traefik`](https://hub.docker.com/_/traefik): reverse proxy
 - [`alpine`](https://hub.docker.com/_/alpine): the backups sidecar, which needs tar and nothing else
 

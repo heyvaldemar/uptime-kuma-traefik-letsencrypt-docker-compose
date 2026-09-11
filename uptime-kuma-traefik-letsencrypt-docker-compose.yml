@@ -7,7 +7,7 @@
 # the pins from these lines — this block is the single source of truth.
 x-images:
   traefik: &traefik-image ${TRAEFIK_IMAGE_TAG:-traefik:${TRAEFIK_IMAGE_VERSION:-3.7@sha256:f86a2cab1b5c649070c49f883c743dd32d8485a56e3368c5f93b9e91f1e91259}}
-  uptime-kuma: &uptime-kuma-image ${UPTIME_KUMA_IMAGE_TAG:-louislam/uptime-kuma:${UPTIME_KUMA_IMAGE_VERSION:-2.5.3@sha256:3e24e96c89efff0e3a4b0698cbdd36c15ad3022371db57166e5588853002ee5c}}
+  uptime-kuma: &uptime-kuma-image ${UPTIME_KUMA_IMAGE_TAG:-louislam/uptime-kuma:${UPTIME_KUMA_IMAGE_VERSION:-2.5.4@sha256:917318f9d7be5257f43ba412c766a473be336eb451d70744f3b482d0c3997c0e}}
   backups: &backups-image ${UPTIME_KUMA_BACKUPS_IMAGE_TAG:-alpine:${UPTIME_KUMA_BACKUPS_IMAGE_VERSION:-3.22@sha256:14358309a308569c32bdc37e2e0e9694be33a9d99e68afb0f5ff33cc1f695dce}}
 
 networks:

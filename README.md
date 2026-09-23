@@ -106,6 +106,8 @@ chmod +x ./*.sh
 ./uptime-kuma-restore-data.sh
 ```
 
+It lists the backups and asks, or takes a file name as its argument; it reads every path from the running backups container, and CI runs it on every push.
+
 It stops the application first. SQLite is written on every heartbeat, and replacing the file under a running process is how a database ends up half old and half new. A live archive still has a small chance of catching a checkpoint mid-write; if that matters to you, stop the container for the three seconds the tar takes.
 
 ## Resource limits

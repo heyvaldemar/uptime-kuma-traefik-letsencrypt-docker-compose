@@ -1,6 +1,7 @@
 # Uptime Kuma + Traefik + Let's Encrypt on Docker Compose
 
 [![Deployment Verification](https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/actions/workflows/deployment-verification.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/actions/workflows/deployment-verification.yml)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/14857/badge)](https://www.bestpractices.dev/projects/14857)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository deploys Uptime Kuma (self-hosted monitoring for HTTP, TCP, ping, DNS, keyword and certificate-expiry checks, with status pages and ninety notification channels) behind Traefik with automatic Let's Encrypt TLS, with scheduled backups of everything it knows and a companion restore script.

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+_(no unreleased changes yet)_
+
+## [1.1.10] - 2026-10-27
+
 ### Changed
 
 - **`louislam/uptime-kuma:2.5.7` moved to `louislam/uptime-kuma:2.5.8`.** The freshness check reported the lag; the deploy job booted the stack on the new image before this landed.
@@ -190,7 +194,8 @@ the fleet standard established in
   reaches the setup page first, so the deploy instructions say to register
   immediately rather than leaving it as an implied step.
 
-[Unreleased]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.9...HEAD
+[Unreleased]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.10...HEAD
+[1.1.10]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.9...v1.1.10
 [1.1.9]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.8...v1.1.9
 [1.1.8]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.7...v1.1.8
 [1.1.7]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.6...v1.1.7

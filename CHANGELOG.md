@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+_(no unreleased changes yet)_
+
+## [1.1.11] - 2026-10-31
+
 ### Security
 
 - **`traefik:3.7` was rebuilt upstream**; the pin moved from `sha256:1336e85aaed2…` to `sha256:e9338a01a433…`. Same version, same tag, a rebuilt base image — the usual shape of a security fix in a base layer.
@@ -196,7 +200,8 @@ the fleet standard established in
   reaches the setup page first, so the deploy instructions say to register
   immediately rather than leaving it as an implied step.
 
-[Unreleased]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.10...HEAD
+[Unreleased]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.11...HEAD
+[1.1.11]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.10...v1.1.11
 [1.1.10]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.9...v1.1.10
 [1.1.9]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.8...v1.1.9
 [1.1.8]: https://github.com/heyvaldemar/uptime-kuma-traefik-letsencrypt-docker-compose/compare/v1.1.7...v1.1.8
